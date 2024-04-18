@@ -4,32 +4,27 @@ function FlightsFootprint() {
 
     const [num, setNum] = useState(1);
     function handleChange(event) {
-        // console.log(event.target.value);
         setNum(event.target.value);
     }
 
     const [flightFrom, setFlightFrom] = useState("DEL");
     function handleChangeFrom(event) {
-        // console.log(event.target.value);
         setFlightFrom(event.target.value);
         
     }
 
     const [flightTo, setFlightTo] = useState("BOM");
     function handleChangeTo(event) {
-        // console.log(event.target.value);
         setFlightTo(event.target.value);
     }
 
     const [flightClass, setFlightClass] = useState("economy");
     function handleChangeClass(event) {
-        // console.log(event.target.value);
         setFlightClass(event.target.value);
     }
 
     const [roundTrip, setRoundTrip] = useState("Y");
     function handleChangeRoundTrip(event) {
-        // console.log(event.target.value);
         setRoundTrip(event.target.value);
     }
 
