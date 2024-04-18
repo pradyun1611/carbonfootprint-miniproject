@@ -26,7 +26,7 @@ function Calc() {
             <Navbar active = "calc"/>
             <div className="calc-one">
                 <div className="in">
-                    <h1>Carbon Footprint Calculator</h1>
+                    <h1>Carbon Calculator</h1>
                     <p>Identify and calculate all the carbon emissions you or your company <br /> are responsible for with the help of our carbon footprint calculator.</p>
                 </div>
             </div>
