@@ -1,0 +1,445 @@
+@font-face {
+    font-family: proxima-nova;
+    src: url(../public/ProximaNova-Regular.woff);
+}
+
+* {
+    font-family: proxima-nova;
+}
+
+body {
+    margin: 0;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 0.5);
+}
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    /* background-color: #04AA6D; */
+    background-color: #32cd32;
+    color: white;
+}
+
+.home-one {
+    width: 85%;
+    height: 337px;
+    margin-left: 7.5%;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 0.5);
+}
+
+.home-one .left {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.home-one .right {
+    width: 50%;
+    height: 100%;
+    background-color: #333;
+    display: inline-block;
+}
+
+.home-one .left .in {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 20%;
+}
+
+.home-one .left .in h1 {
+    font-size: 3.5rem;
+}
+
+.home-one .left .in a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-one .right img {
+    width: 100%;
+}
+
+.home-two {
+    width: 100%;
+    height: 400px;
+    /* background-color: #04AA6D; */
+    background-color: limegreen;
+    position: absolute;
+    top: 250px;
+    vertical-align: top;
+}
+
+.home-two .in {
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    position: inherit;
+    top: 200px;
+    font-size: 2rem;
+    color: white;
+}
+
+footer {
+    background-color: #aeadad;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+.home-three {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+}
+
+.home-three .left {
+    width: 60%;
+    height: 100%;
+    float: left;
+    /* background-color: aqua; */
+}
+
+.home-three img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 45px;
+}
+
+.home-three .right {
+    width: 40%;
+    height: 100%;
+    float: right;
+    /* background-color: #333; */
+    font-size: larger;
+}
+
+.home-three .right .in {
+    width: 90%;
+}
+
+
+.home-four {
+    width: 100%;
+    height: 270px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 1000px;
+}
+
+.reduce-one {
+    width: 100%;
+    height: fit-content;
+    vertical-align: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reduce-one img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.reduce-one .in {
+    color: white;
+    position: absolute;
+    top: 25%;
+    font-size: 3rem;
+}
+
+.reduce-two {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.dictionary img {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 4rem auto;
+    max-width: 90%;
+}
+  
+.dictionary > .term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 100ms ease-in-out;
+}
+  
+.dictionary > .term > dt {
+    margin-bottom: 1rem;
+}
+  
+dt {
+    color: #2ec2b0;
+    line-height: 1;
+}
+  
+dt span {
+    font-size: 200%;
+    font-weight: 900;
+}
+  
+.pic {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.pic img {
+    width: 90%;
+}
+  
+dd {
+    font-size: 92.5%;
+    margin-left: 0;
+}
+  
+dd dt {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: inherit;
+}
+  
+dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+}
+  
+dd dl .term {
+    margin-bottom: 1rem;
+}
+
+
+
+.offset-one {
+    width: 100%;
+    height: fit-content;
+    vertical-align: top;
+    position: absolute;
+    z-index: 0;
+}
+
+.offset-one img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.offset-two {
+    width: 470px;
+    height: 470px;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.offset-two .in {
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.5em;
+}
+
+.txt-color {
+    color: #32cd32;
+}
+
+.offset-three {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    top: 700px;
+}
+
+.offset-three .right {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /* background-color: aqua; */
+}
+
+.offset-three img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 45px;
+}
+
+.offset-three .left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: #333; */
+    font-size: larger;
+}
+
+.offset-three .left .in {
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+
+iframe {
+    height: 740px;
+    width: 100%;
+    position: relative;
+    top: 650px;
+}
+
+.calc-one {
+    width: 100%;
+    height: 500px;
+    /* background-image: url("../public/nature.jpeg"); */
+    background-image: linear-gradient(to left, 
+    rgba(255, 255, 255, 0.8) -0.57%,  
+    rgba(0, 0, 0, 0) -0.56%,    
+    rgba(0, 0, 0, 0.05) 13.71%,    
+    rgba(0, 0, 0, 0.15) 24.68%,    
+    rgba(0, 0, 0, 0.2) 32.88%,    
+    rgba(0, 0, 0, 0.25) 38.84%,      
+    rgba(0, 0, 0, 0.30) 43.12%,     
+    rgba(0, 0, 0, 0.35) 46.24%,     
+    rgba(0, 0, 0, 0.40) 48.77%,    
+    rgba(0, 0, 0, 0.45) 51.23%,   
+    rgba(0, 0, 0, 0.50) 54.17%,    
+    rgba(0, 0, 0, 0.55) 54.18%,    
+    rgba(0, 0, 0, 0.68) 58.13%,    
+    rgba(0, 0, 0, 0.77) 63.66%,    
+    rgba(0, 0, 0, 0.85) 71.29%,    
+    rgba(0, 0, 0, 0.90) 81.58%,   
+    rgba(0, 0, 0, 0.95) 95.05%   
+    ) , url("../public/nature.jpeg");
+}
+
+.calc-one .in {
+    height: fit-content;
+    width: 100%;
+    margin-left: 50px;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 240px;
+}
+
+.calc-two {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footprintContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.footprintCard {
+    height: 175px;
+    width: 250px;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 3px 8px black;
+    transition: all 100ms ease-in-out;
+}
+
+.footprintCard:hover {
+    box-shadow: 0px 10px 30px;
+    height: 185px;
+    width: 260px;
+}
+
+.footprintCard img {
+    width: 30px;
+    height: 30px;
+}
+
+.footprintCard p {
+    color: rgb(162, 162, 162);
+}
+
+.calc-three {
+    width: 1115px;
+    height: fit-content;
+    background-color: #2ec2b0;
+    margin-top: 50px;
+    margin-left: 125px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.calc-three p {
+    font-size: larger;
+}
+
+.calc-three .airport, .calc-three input {
+    width: 50px;
+}
+
+.calc-three select, .calc-three input {
+    height: 30px;
+}
+
+.calc-four {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 1200px;
+}
